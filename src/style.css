@@ -1,9 +1,89 @@
-h1{
-    font-family: Playfair Display, sans-serif;
-    font-size: 128px;
-    font-weight: 700;
+body{
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
 }
 
-p {
-    font-family: roboto;
+
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(30, 16, 0,1)), url("../images/Minoa-Pera-Icerisi.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+}
+
+header h1{
+font-family: "Playfair Display", sans-serif;
+font-weight: 700;
+font-size: 128px;
+line-height: 1;
+margin:0;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin:0;
+}
+
+header h3 {
+    font-Weight:900;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing:5px;
+    margin:0;
+}
+
+header a{
+    display:inline-block;
+    margin-top: 32px;
+    padding: 16px 32px ;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height:1.5;
+    text-decoration: none;
+    letter-spacing: 2px;  
+}
+
+
+@media (max-width: 900px){
+    body{
+        font-size: 12px;
+    }
+    
+    header {
+    padding: 60px 0;
+    }
+
+    header h1{
+    font-size: 64px;
+    }
+
+    header h2 {
+    font-size: 18px;
+    }
+
+    header h3 {
+    font-size: 12px;
+    letter-spacing:2px;
+    }
+
+    header a{
+    margin-top: 16px;
+    padding: 8px 16px ;
+    font-size: 12px;
+    letter-spacing: 0;
+    }
 }
