@@ -91,6 +91,19 @@ line-height:1.5;
 opacity:0.7;
 }
 
+main h4{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    margin:0
+}
+main h5{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    margin:0
+}
+
 
 
 footer{
@@ -115,7 +128,7 @@ footer ul {
 footer li {
     list-style: none;
     padding:0;
-    margin:0,
+    margin:0;
 }
 
 footer a{
@@ -135,9 +148,14 @@ footer p{
 }
 
 section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+section.secondary {
+background: rgba(110, 58, 0, 0.319);
+
 }
 
 .grid {
@@ -146,15 +164,60 @@ section{
 }
 
 .grid-2-column{
-    grid-template-columns:1fr 1fr
+    grid-template-columns:1fr 1fr;
+    padding: 100px 0;
 }
-.grid-3-column{
-grid-template-columns: 2fr 2fr 2fr;
+
+.grid-3-columns{
+grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card{
+    background-color: white;
+    margin:30px 0;
+    box-shadow: rgba(48, 26, 0, 0.367) 0px 8px 24px;;
+}
+
+.card-body{
+    padding:30px; 
+}
+
+
+.card p{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.card-footer{
+    padding:0 30px 20px;
+}
+
+.btn{
+display: block;
+background-color: brown;
+color:white;
+padding:16px 32px;
+font-size: 14px;
+text-decoration: none;
+text-align: center;
+letter-spacing: 3px;
+font-weight: 700;
+}
+
 
 .img-responsive {
   max-width: 100%;
   margin-top:60px;
+}
+
+.img-card-responsive{
+    max-width: 50%;
+}
+
+.text-center{
+    text-align: center;
 }
 
 
