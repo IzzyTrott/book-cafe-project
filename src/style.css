@@ -178,6 +178,16 @@ grid-template-columns: 1fr 1fr 1fr;
     box-shadow: rgba(48, 26, 0, 0.367) 0px 8px 24px;;
 }
 
+.card-header.grid{
+grid-gap:0;
+padding:0
+}
+
+.embed {
+ width:100%;
+ aspect-ratio: 1 / 1;
+}
+
 .card-body{
     padding:30px; 
 }
@@ -213,7 +223,7 @@ font-weight: 700;
 }
 
 .img-card-responsive{
-    max-width: 50%;
+    width: 100%;
 }
 
 .text-center{
@@ -280,4 +290,12 @@ font-weight: 700;
     .img-responsive {
      margin-top:0px;
     }
+
+    .card-header img{
+        display: none;
+    }
+    
+.embed {
+ aspect-ratio: 16 / 9;
+}
 }
