@@ -188,6 +188,19 @@ padding:0
  aspect-ratio: 1 / 1;
 }
 
+.video-grid-3-columns{
+width: 100%;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.youtube-media{
+margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 .card-body{
     padding:30px; 
 }
@@ -294,8 +307,13 @@ font-weight: 700;
     .card-header img{
         display: none;
     }
-    
+
 .embed {
  aspect-ratio: 16 / 9;
 }
+
+.video-grid-3-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
 }
